@@ -1,0 +1,60 @@
+.formItemPhone{
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(244, 244, 244);
+  margin: 20px auto;
+}
+.formItemPhone input { 
+  height: 50px;
+  padding-left: 10px;
+  display: inline-block; 
+  width: 75%;  
+  font-size: 32rpx;  
+  font-family: PingFangSC-Medium;  
+  font-weight: 500;  
+  color: rgba(51, 51, 51, 1);
+} 
+.formItemPhone .code{
+  width: 100%;
+}
+.formItemPhone label{
+  float: left;
+  padding:0 10px;
+
+}
+.v_c{
+  
+  height:30px;
+  font-size:14px;
+  padding:0 20px;
+  color:#666;
+}
+.v_c .v_l{
+  float: left;
+}
+.v_c .v_r{
+  float: right;
+}
+.formBtn{
+  width:80%;
+  height:40px;
+  font-size:16px;
+  line-height:40px;
+  background-color:#1e98ea;
+  color:white;
+  margin-top:50px;
+
+}
+
+
+.color_red{
+  border: 1px solid red;
+}
+
+
+
+
+
+
+

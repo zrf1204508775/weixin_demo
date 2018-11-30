@@ -1,0 +1,12 @@
+page{
+ height:100%;
+}
+.imgsdd{
+  display: block;
+  width: 750rpx;
+  height: 1621rpx;
+  position:fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%); 
+}

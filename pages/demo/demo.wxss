@@ -1,0 +1,17 @@
+.map{
+  width: 100%;
+  min-height: 200px;
+  background-color: cyan;
+}
+.sys{
+  display: block;
+  margin-top: 20px;
+}
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}

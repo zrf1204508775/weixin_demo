@@ -1,0 +1,21 @@
+<!--register.wxml-->
+<view>
+  <view class="formItemPhone">    
+    <label>+89</label>    
+    <input name="phone" id='phone' type='number' placeholder="请输入手机号" data-id="phone" bindinput="phoneInput" />  
+  </view>
+  <view class="formItemcode">
+    <view class='auth_code_w'>
+      <input name="auth_code" class='auth_code' type='' bindinput="auth_code" placeholder="请输入验证码" data-id="auth_code"  /> 
+    </view>
+     <button class='get_auth_code' data-text="C" disabled="{{disabled}}" bindtap='getAuthCode'>{{btntext}}</button>
+  </view>  
+  <view class="formItemPhone">    
+    <input name="code" class='code' type='password' bindinput="passwordInput" placeholder="请设置密码 字母数字组合" data-id="code"   />   
+  </view>  
+  <view class='checked'>
+      <radio value="{{item.name}}" checked="{{item.checked}}"/>{{text}}
+      <a>《的呼唤和人合伙》</a>
+  </view>
+  <button formType="submit" class="formBtn"  bindtap="confirm">下一步</button>
+</view>

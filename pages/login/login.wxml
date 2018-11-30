@@ -1,0 +1,15 @@
+<!--login.wxml-->
+<form bindsubmit='formSubmit'>  
+  <view class="formItemPhone">    
+    <label>+89</label>    
+    <input name="phone" id='phone' type='number' placeholder="请输入手机号" data-id="phone" bindinput="phoneInput" />  
+  </view>  
+  <view class="formItemPhone">    
+    <input name="code" class='code' type='password' bindinput="passwordInput" placeholder="请输入密码" data-id="code"   />   
+  </view>  
+  <view class='v_c'>
+  <view class='v_l' bindtap='tabreg'>手机快速注册</view>
+  <view class='v_r' bindtap="tabnum">忘记密码？</view>
+</view> 
+  <button formType="submit" class="formBtn"  bindtap="login">登录</button>
+</form>
